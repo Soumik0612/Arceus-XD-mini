@@ -49,7 +49,7 @@ async function restoreSessions() {
 async function main() {
   console.log(`
 ╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮
-┃      🌙 ARCEUS XD MINI     ┃
+┃       ARCEUS XD MINI     ┃
 ┃   WhatsApp + Telegram Pair ┃
 ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
 
