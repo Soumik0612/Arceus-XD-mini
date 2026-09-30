@@ -21,7 +21,7 @@ function createTelegramBot({ sessions, startWASession }) {
 
     await bot.sendMessage(
       chatId,
-      `🌙 *${CONFIG.BOT_NAME}*
+      `👾 *${CONFIG.BOT_NAME}*
 
 WhatsApp pair করতে WhatsApp number পাঠাও।
 
