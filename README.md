@@ -1,4 +1,4 @@
-# 🌙 ARCEUS XD MINI — Render Edition
+#  ARCEUS XD MINI — Render Edition
 
 WhatsApp bot using **Baileys 7.0.0-rc.14** with Telegram-based WhatsApp pairing.
 
