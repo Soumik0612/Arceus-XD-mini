@@ -19,7 +19,7 @@ module.exports = {
   BOT_NAME: process.env.BOT_NAME || "ARCEUS XD MINI",
   PREFIX: process.env.PREFIX || ".",
   MENU_PHOTO_URL:
-    process.env.MENU_PHOTO_URL || "https://files.catbox.moe/eux4xg.jpg",
+    process.env.MENU_PHOTO_URL || "https://i.ibb.co/Rw6xhLd/8f99d918d45c.jpg",
   AUTH_FOLDER: process.env.AUTH_FOLDER || "./auth_sessions",
   ALLOWED_TELEGRAM_IDS: csv(process.env.ALLOWED_TELEGRAM_IDS)
 };
