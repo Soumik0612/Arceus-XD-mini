@@ -1,0 +1,22 @@
+{
+  "name": "arceus-xd-mini-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot with Telegram-based WhatsApp pairing using Baileys.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "7.0.0-rc.14",
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "fs-extra": "^11.3.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "pino": "^9.6.0"
+  }
+}

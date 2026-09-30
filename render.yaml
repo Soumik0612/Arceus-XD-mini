@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: arceus-xd-mini-bot
+    runtime: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    maxShutdownDelaySeconds: 60
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: TELEGRAM_TOKEN
+        sync: false
+      - key: OWNER_NUMBER
+        sync: false
+      - key: OWNER_NAME
+        value: Crimex X
+      - key: BOT_NAME
+        value: ARCEUS XD MINI
+      - key: PREFIX
+        value: .
+      - key: MENU_PHOTO_URL
+        value: https://files.catbox.moe/eux4xg.jpg
+      - key: AUTH_FOLDER
+        value: /var/data/auth_sessions
+      - key: ALLOWED_TELEGRAM_IDS
+        sync: false
+    disk:
+      name: arceus-xd-mini-data
+      mountPath: /var/data
+      sizeGB: 1
