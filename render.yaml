@@ -21,7 +21,7 @@ services:
       - key: PREFIX
         value: .
       - key: MENU_PHOTO_URL
-        value: https://files.catbox.moe/eux4xg.jpg
+        value: https://i.ibb.co/Rw6xhLd/8f99d918d45c.jpg
       - key: AUTH_FOLDER
         value: /var/data/auth_sessions
       - key: ALLOWED_TELEGRAM_IDS
